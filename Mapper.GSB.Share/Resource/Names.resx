@@ -1,0 +1,477 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AccountVO" xml:space="preserve">
+    <value>مشخصات صندوق های مرتبط با بیمه شده</value>
+  </data>
+  <data name="AccountVO.AccountID" xml:space="preserve">
+    <value>شماره سریال مرتبط با صندوق یا خدمت</value>
+  </data>
+  <data name="AccountVO.AccountStatus" xml:space="preserve">
+    <value>وضعیت اعتباری صندوق یا خدمت</value>
+  </data>
+  <data name="AccountVO.AccountType" xml:space="preserve">
+    <value>کد نوع صندوق – خدمت</value>
+  </data>
+  <data name="AccountVO.ActiveFrom" xml:space="preserve">
+    <value>تاریخ شروع اعتبار</value>
+  </data>
+  <data name="AccountVO.ActiveTo" xml:space="preserve">
+    <value>تاریخ پایان اعتبار</value>
+  </data>
+  <data name="AccountVO.CreateDate" xml:space="preserve">
+    <value>تاریخ ایجاد</value>
+  </data>
+  <data name="AccountVO.InitiateDate" xml:space="preserve">
+    <value>تاریخ اولین ثبت نام</value>
+  </data>
+  <data name="ApiServiceSetting" xml:space="preserve">
+    <value>تنظیمات سرویس وب </value>
+  </data>
+  <data name="ApiServiceSetting.GetToken" xml:space="preserve">
+    <value>تنظمیات سرویس GetToken</value>
+  </data>
+  <data name="ApiServiceSetting.SendPersonInfo" xml:space="preserve">
+    <value>تنظمیات سرویس SendPersonInfo</value>
+  </data>
+  <data name="ApiServiceSetting.SendPersonSupplimantryInfo" xml:space="preserve">
+    <value>تنظمیات سرویس SendPersonSupplimantryInfo</value>
+  </data>
+  <data name="Asked" xml:space="preserve">
+    <value>خواسته شده</value>
+  </data>
+  <data name="Assigner" xml:space="preserve">
+    <value>اختصاص دهنده</value>
+  </data>
+  <data name="AUDIT_CHANGE" xml:space="preserve">
+    <value>وضعیت عملیات</value>
+  </data>
+  <data name="Authentication" xml:space="preserve">
+    <value>احراز هویت</value>
+  </data>
+  <data name="Authorization" xml:space="preserve">
+    <value>مجوز دسترسی</value>
+  </data>
+  <data name="Data" xml:space="preserve">
+    <value>داده</value>
+  </data>
+  <data name="DATA.INSURANCE.FORMAT" xml:space="preserve">
+    <value>داده ها به استاندارد بیمه</value>
+  </data>
+  <data name="Database" xml:space="preserve">
+    <value>پایگاه داده</value>
+  </data>
+  <data name="Day" xml:space="preserve">
+    <value>روز</value>
+  </data>
+  <data name="DDR.Insert" xml:space="preserve">
+    <value>درج اطلاعات در سرور DDR</value>
+  </data>
+  <data name="DDR.Person" xml:space="preserve">
+    <value>اطلاعات شخص یا فرد در openEHR</value>
+  </data>
+  <data name="DDR.Relationship" xml:space="preserve">
+    <value>اطلاعات بیمه فرد در openEHR</value>
+  </data>
+  <data name="DDR.Update" xml:space="preserve">
+    <value>ویرایش اطلاعات در سرور DDR</value>
+  </data>
+  <data name="DoCodedText.Code" xml:space="preserve">
+    <value>مقدار کد</value>
+  </data>
+  <data name="DoCodedText.Terminology" xml:space="preserve">
+    <value>شناسه ترمینولوژِی کد</value>
+  </data>
+  <data name="DoCodedText.Value" xml:space="preserve">
+    <value>نام نمایشی کد</value>
+  </data>
+  <data name="FOR_READ" xml:space="preserve">
+    <value>جهت خواندن</value>
+  </data>
+  <data name="FOR_WRITE" xml:space="preserve">
+    <value>جهت نوشتن</value>
+  </data>
+  <data name="GetToken" xml:space="preserve">
+    <value> دریافت توکن</value>
+  </data>
+  <data name="Hour" xml:space="preserve">
+    <value>ساعت</value>
+  </data>
+  <data name="Id" xml:space="preserve">
+    <value>شناسه</value>
+  </data>
+  <data name="IdType" xml:space="preserve">
+    <value>نوع شناسه</value>
+  </data>
+  <data name="Information" xml:space="preserve">
+    <value>اطلاعات</value>
+  </data>
+  <data name="Input" xml:space="preserve">
+    <value>ورودی</value>
+  </data>
+  <data name="InternalServerError" xml:space="preserve">
+    <value>خطای داخلی سرور</value>
+  </data>
+  <data name="Issuer" xml:space="preserve">
+    <value>صادر کننده</value>
+  </data>
+  <data name="LIFECYCLE_STATE" xml:space="preserve">
+    <value>وضعیت پرونده</value>
+  </data>
+  <data name="MessageIdentifierVO" xml:space="preserve">
+    <value>تبادل داده های پرونده الکترونیکی سلامت</value>
+  </data>
+  <data name="MessageIdentifierVO.MessageUID" xml:space="preserve">
+    <value>شناسه یکتای داده پیام ارسالی به هاب بیمه مرکزی</value>
+  </data>
+  <data name="MessageIdentifierVO.RegisterUID" xml:space="preserve">
+    <value>شناسه منحصر به فرد ثبت اطلاعات بیمه شده در هاب بیمه مرکزی</value>
+  </data>
+  <data name="MessageIdentifierVO.SystemID" xml:space="preserve">
+    <value>شناسه یگانه سیستم نرم‌افزاری ارسال‌کننده داده</value>
+  </data>
+  <data name="MessageIdentifierVO.Version" xml:space="preserve">
+    <value>نسخه سند</value>
+  </data>
+  <data name="MessageIdentifierVO_HealthCareFacilityID" xml:space="preserve">
+    <value>شناسه یگانه مرکز ارائه دهنده خدمت بهداشت درمانی</value>
+  </data>
+  <data name="MessageIdentifierVO_UniversityID" xml:space="preserve">
+    <value>شناسه یگانه دانشگاه ناظر ارائه دهنده خدمات پزشکی</value>
+  </data>
+  <data name="MessageIdentifierVO_VersionLifecycleState" xml:space="preserve">
+    <value>وضعیت ارسال پرونده</value>
+  </data>
+  <data name="Minute" xml:space="preserve">
+    <value>دقیقه</value>
+  </data>
+  <data name="Month" xml:space="preserve">
+    <value>ماه</value>
+  </data>
+  <data name="Operation" xml:space="preserve">
+    <value>عملیات</value>
+  </data>
+  <data name="PersonInfoVO" xml:space="preserve">
+    <value>بیمه شده</value>
+  </data>
+  <data name="PersonInfoVO.BirthDate" xml:space="preserve">
+    <value>تاریخ تولد بیمه شده</value>
+  </data>
+  <data name="PersonInfoVO.City" xml:space="preserve">
+    <value>شهرستان بیمه شده</value>
+  </data>
+  <data name="PersonInfoVO.FirstName" xml:space="preserve">
+    <value>نام بیمه شده</value>
+  </data>
+  <data name="PersonInfoVO.FullAddress" xml:space="preserve">
+    <value>آدرس بیمه شده</value>
+  </data>
+  <data name="PersonInfoVO.Gender" xml:space="preserve">
+    <value>جنسیت</value>
+  </data>
+  <data name="PersonInfoVO.LastName" xml:space="preserve">
+    <value>نام خانوادگی بیمه شده</value>
+  </data>
+  <data name="PersonInfoVO.Mobile" xml:space="preserve">
+    <value>شماره همراه</value>
+  </data>
+  <data name="PersonInfoVO.MobileNumber" xml:space="preserve">
+    <value>شماره تلفن همراه بیمه شده</value>
+  </data>
+  <data name="PersonInfoVO.NationalCode" xml:space="preserve">
+    <value>کد ملی بیمه شده</value>
+  </data>
+  <data name="PersonInfoVO.PersonID" xml:space="preserve">
+    <value>شناسه ملی فرد یا شناسه اتباع بیگانه یا پاسپورت</value>
+  </data>
+  <data name="PersonInfoVO.PictureB64" xml:space="preserve">
+    <value>تصویر بیمه شده</value>
+  </data>
+  <data name="PersonInfoVO.PostalCode" xml:space="preserve">
+    <value>کد پستی</value>
+  </data>
+  <data name="PersonInfoVO.Province" xml:space="preserve">
+    <value>استان بیمه شده</value>
+  </data>
+  <data name="PersonInfoVO_MaritalStatus" xml:space="preserve">
+    <value>وضعیت تاهل فرد</value>
+  </data>
+  <data name="PersonInfoVO_Nationality" xml:space="preserve">
+    <value>ملیت فرد</value>
+  </data>
+  <data name="PersonInsurance" xml:space="preserve">
+    <value>بیمه نامه و بیمه شده</value>
+  </data>
+  <data name="PersonInsurance.ServiceDateTime" xml:space="preserve">
+    <value>زمان ثبت/الحاقیه بیمه شده یا زمان ارا</value>
+  </data>
+  <data name="PersonInsuranceDataCoordinator" xml:space="preserve">
+    <value>هماهنگ کننده و خلاصه اطلاعات بیمه نامه</value>
+  </data>
+  <data name="PersonInsuranceDataCoordinator.PersonInsuranceVersion" xml:space="preserve">
+    <value>آخرین نسخه از این نمونه اطلاعات فردی و بیمه نامه</value>
+  </data>
+  <data name="PersonInsuranceDataCoordinator.Shebad" xml:space="preserve">
+    <value>شناسه منحصر بفرد صادر شده توسط سازمان بیمه گر</value>
+  </data>
+  <data name="PersonInsuranceDataCoordinator.Status" xml:space="preserve">
+    <value>وضعیت فعلی سند بیمه</value>
+  </data>
+  <data name="PersonInsuranceInfoByPersonIdQuery" xml:space="preserve">
+    <value>دریافت خلاصه اطلاعات وضعیت بیمه نامه بر اساس شناسه</value>
+  </data>
+  <data name="PersonInsuranceStatusByDateQuery" xml:space="preserve">
+    <value>نمایش وضعیت درخواست های ثبت و ویرایش اطلاعات بیمه نامه</value>
+  </data>
+  <data name="PersonInsuranceStatusByRegisterUIDQuery" xml:space="preserve">
+    <value>وضعیت درخواست ثبت یا ویرایش اطلاعات بیمه شده و بیمه نام</value>
+  </data>
+  <data name="PersonPolicyVO" xml:space="preserve">
+    <value>بیمه نامه</value>
+  </data>
+  <data name="PersonPolicyVO.Account" xml:space="preserve">
+    <value>مشخصات صندوق های مرتبط با بیمه شده</value>
+  </data>
+  <data name="PersonPolicyVO.CityBranch" xml:space="preserve">
+    <value>کد و عنوان شهر محل صدور بیمه</value>
+  </data>
+  <data name="PersonPolicyVO.CompanyInsuredId" xml:space="preserve">
+    <value>کد رایانه بیمه شده</value>
+  </data>
+  <data name="PersonPolicyVO.CompanyPolicyId" xml:space="preserve">
+    <value>کد رایانه بیمه نامه</value>
+  </data>
+  <data name="PersonPolicyVO.EffectiveDate" xml:space="preserve">
+    <value>تاریخ شروع اعتبار بیمه شده</value>
+  </data>
+  <data name="PersonPolicyVO.InsuranceBox" xml:space="preserve">
+    <value>صندوق بيمه فرد</value>
+  </data>
+  <data name="PersonPolicyVO.InsuranceExpirationDate" xml:space="preserve">
+    <value>تاریخ پایان اعتبار بیمه</value>
+  </data>
+  <data name="PersonPolicyVO.InsuredType" xml:space="preserve">
+    <value>نوع بیمه شده</value>
+  </data>
+  <data name="PersonPolicyVO.Insurer" xml:space="preserve">
+    <value>کد شرکت بیمه تکمیلی/فول درمان</value>
+  </data>
+  <data name="PersonPolicyVO.InsurerName" xml:space="preserve">
+    <value>نام بیمه گذار بیمه نامه</value>
+  </data>
+  <data name="PersonPolicyVO.PolicyPrintNumber" xml:space="preserve">
+    <value>شماره چاپی بیمه نامه</value>
+  </data>
+  <data name="PersonPolicyVO.PolicyType" xml:space="preserve">
+    <value>نوع ورودی بیمه نامه</value>
+  </data>
+  <data name="PersonPolicyVO.PolicyUnqiueCode" xml:space="preserve">
+    <value>کد یکتای بیمه نامه</value>
+  </data>
+  <data name="PersonPolicyVO.ProvinceBranch" xml:space="preserve">
+    <value>کد و عنوان استان محل صدور بیمه</value>
+  </data>
+  <data name="PersonPolicyVO.RecommendationMessage" xml:space="preserve">
+    <value>توضیحات</value>
+  </data>
+  <data name="PersonPolicyVO.RelationType" xml:space="preserve">
+    <value>کد و عنوان نسبت بیمه شده با سرپرست</value>
+  </data>
+  <data name="PersonPolicyVO.ResponsibleGender" xml:space="preserve">
+    <value>جنسیت بیمه شده اصلی</value>
+  </data>
+  <data name="PersonPolicyVO.ResponsibleID" xml:space="preserve">
+    <value>کدملی/کد اتباع/شماره پاسپورت بیمه شده اصلی</value>
+  </data>
+  <data name="PersonPolicyVO_BankAcc" xml:space="preserve">
+    <value>بانک</value>
+  </data>
+  <data name="PersonPolicyVO_BaseInsurer" xml:space="preserve">
+    <value>سازمان بیمه‌گر پایه</value>
+  </data>
+  <data name="PersonPolicyVO_Branch" xml:space="preserve">
+    <value>شعبه محل صدور بیمه نامه</value>
+  </data>
+  <data name="PersonPolicyVO_ContractType" xml:space="preserve">
+    <value>نوع قرارداد بیمه شده اصلی</value>
+  </data>
+  <data name="PersonPolicyVO_DeathDate" xml:space="preserve">
+    <value>تاریخ فوت</value>
+  </data>
+  <data name="PersonPolicyVO_InsurerNationalCode" xml:space="preserve">
+    <value>شناسه ملی بیمه گذار حقوقی/کدملی بیمه گذار حقیقی</value>
+  </data>
+  <data name="PersonPolicyVO_IsCoverageUnlimited" xml:space="preserve">
+    <value>نوع پوشش</value>
+  </data>
+  <data name="PersonPolicyVO_PlanId" xml:space="preserve">
+    <value>کد رایانه طرح بیمه نامه در  شرکت بیمه تکمیلی/فول درمان</value>
+  </data>
+  <data name="PersonPolicyVO_PolicyIssueDate" xml:space="preserve">
+    <value>تاریخ صدور بیمه نامه درمان</value>
+  </data>
+  <data name="PersonPolicyVO_RequestReason" xml:space="preserve">
+    <value>علت درخواست</value>
+  </data>
+  <data name="PersonPolicyVO_WorkShop" xml:space="preserve">
+    <value>کارگاه یا اداره بیمه شده</value>
+  </data>
+  <data name="PrepareMetaData" xml:space="preserve">
+    <value>آماده سازی فرا داده ها </value>
+  </data>
+  <data name="PropertyName" xml:space="preserve">
+    <value>نام خصوصیت</value>
+  </data>
+  <data name="RegisterDateInDataHub" xml:space="preserve">
+    <value>زمان ثبت اطلاعات در بیمه مرکزی</value>
+  </data>
+  <data name="RELATED_ORGANIZATION_DATA" xml:space="preserve">
+    <value>داده های سازمان مربوطه</value>
+  </data>
+  <data name="REPOSITORY" xml:space="preserve">
+    <value>مخزن داده</value>
+  </data>
+  <data name="Request" xml:space="preserve">
+    <value>درخواست</value>
+  </data>
+  <data name="SavePersonInDDR" xml:space="preserve">
+    <value>ثبت اطلاعات بیمه شده در سیستم مرکزی DDR</value>
+  </data>
+  <data name="SaveRelationshipInDDR" xml:space="preserve">
+    <value>ثبت اطلاعات بیمه در سیستم مرکزی DDR</value>
+  </data>
+  <data name="Second" xml:space="preserve">
+    <value>ثانیه</value>
+  </data>
+  <data name="SendPersonInfo" xml:space="preserve">
+    <value>ثبت اطلاعات فول درمان</value>
+  </data>
+  <data name="SendPersonSupplimantryInfo" xml:space="preserve">
+    <value>ثبت اطلاعات تکمیلی</value>
+  </data>
+  <data name="Server" xml:space="preserve">
+    <value>سرور</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>کاربر</value>
+  </data>
+  <data name="Year" xml:space="preserve">
+    <value>سال</value>
+  </data>
+</root>

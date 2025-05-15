@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="46e77f37-ecaf-4e82-89d2-02f2be141208" ChangeDateTime="06/11/2024 09:32:42">
+    <Property Name="ElementName" Value="[dbo].[GSB.BI.BirthDateRange].[ClassType]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[GSB.BI.BirthDateRange]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="From0To2" />
+  </Operation>
+</Operations>

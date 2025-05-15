@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>dotnet-Mapper.GSB.Host.DDRAPICaller-0fb56f92-07d5-4083-8f07-59c8cda27ad1</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MassTransit.Newtonsoft" Version="8.1.3" />
+    <PackageReference Include="MassTransit.RabbitMQ" Version="8.1.3" />
+    <PackageReference Include="Microsoft.Extensions.Caching.Abstractions" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="7.0.1" />
+    <PackageReference Include="Serilog.AspNetCore" Version="8.0.0" />
+    <PackageReference Include="Serilog.Enrichers.ClientInfo" Version="2.0.3" />
+    <PackageReference Include="Serilog.Enrichers.Environment" Version="2.3.0" />
+    <PackageReference Include="Serilog.Enrichers.Process" Version="2.0.2" />
+    <PackageReference Include="Serilog.Exceptions" Version="8.4.0" />
+    <PackageReference Include="Serilog.Sinks.Elasticsearch" Version="9.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Mapper.GSB.Application.DDRAPICaller\Mapper.GSB.Application.DDRAPICaller.csproj" />
+    <ProjectReference Include="..\Mapper.GSB.Infrastructure\Mapper.GSB.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Mapper.openEHR">
+      <HintPath>..\..\..\..\openEHR\Mapper\Mapper.Source\Mapper.openEHR\bin\Debug\net6.0\Mapper.openEHR.dll</HintPath>
+    </Reference>
+    <Reference Include="openEHR.DDR.Command">
+      <HintPath>..\..\..\..\openEHR\DDR\DDR.Source\openEHR.DDR.Command\bin\Debug\net5.0\openEHR.DDR.Command.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <Import Project="..\Logging\Logging.projitems" Label="Shared" />
+</Project>

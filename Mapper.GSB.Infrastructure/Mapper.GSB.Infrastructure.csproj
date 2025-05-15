@@ -1,0 +1,51 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Data\Config\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.1.28" />
+    <PackageReference Include="MassTransit.Newtonsoft" Version="8.1.3" />
+    <PackageReference Include="MediatR" Version="12.2.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.14" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.14" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.14">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Caching.Abstractions" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Mapper.GSB.Application.DDRAPICaller\Mapper.GSB.Application.DDRAPICaller.csproj" />
+    <ProjectReference Include="..\Mapper.GSB.Application.GSBAPICaller\Mapper.GSB.Application.GSBAPICaller.csproj" />
+    <ProjectReference Include="..\Mapper.GSB.Application\Mapper.GSB.Application.csproj" />
+    <ProjectReference Include="..\Mapper.GSB.Domain\Mapper.GSB.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="openEHR">
+      <HintPath>..\..\..\..\openEHR\Library\Library.Source\openEHR\bin\Debug\net5.0\openEHR.dll</HintPath>
+    </Reference>
+    <Reference Include="openEHR.DDR.Command">
+      <HintPath>..\..\..\..\openEHR\DDR\DDR.Source\openEHR.DDR.Command\bin\Debug\net5.0\openEHR.DDR.Command.dll</HintPath>
+    </Reference>
+    <Reference Include="openEHR.DDR.Exceptions">
+      <HintPath>..\..\..\..\openEHR\DDR\DDR.Source\openEHR.DDR.Exceptions\bin\Debug\net5.0\openEHR.DDR.Exceptions.dll</HintPath>
+    </Reference>
+    <Reference Include="openEHR.DDR.Query">
+      <HintPath>..\..\..\..\openEHR\DDR\DDR.Source\openEHR.DDR.Query\bin\Debug\net5.0\openEHR.DDR.Query.dll</HintPath>
+    </Reference>
+    <Reference Include="Services.ExceptionManager">
+      <HintPath>..\..\..\..\Services\Services.Source\Services.ExceptionManager\bin\Release\net7.0\publish\Services.ExceptionManager.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MassTransit.Newtonsoft" Version="8.1.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Mapper.GSB.Application\Mapper.GSB.Application.csproj" />
+    <ProjectReference Include="..\Mapper.GSB.Domain\Mapper.GSB.Domain.csproj" />
+    <ProjectReference Include="..\MOHME.Lib\MOHME.Lib.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Services.ExceptionManager">
+      <HintPath>..\..\..\..\Services\Services.Source\Services.ExceptionManager\bin\Release\net7.0\publish\Services.ExceptionManager.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MassTransit.Newtonsoft" Version="8.1.3" />
+    <PackageReference Include="MediatR" Version="12.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Primitives" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Mapper.GSB.Domain\Mapper.GSB.Domain.csproj" />
+    <ProjectReference Include="..\MOHME.Lib\MOHME.Lib.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Mapper.openEHR">
+      <HintPath>..\..\..\..\openEHR\Mapper\Mapper.Source\Mapper.openEHR\bin\Debug\net6.0\Mapper.openEHR.dll</HintPath>
+    </Reference>
+    <Reference Include="Mapper.openEHR.Infrastructure">
+      <HintPath>..\..\..\..\openEHR\Mapper\Mapper.Source\Mapper.openEHR.Infrastructure\bin\Debug\net6.0\Mapper.openEHR.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="openEHR">
+      <HintPath>..\..\..\..\openEHR\Library\Library.Source\openEHR\bin\Debug\net5.0\openEHR.dll</HintPath>
+    </Reference>
+    <Reference Include="openEHR.DDR.Command">
+      <HintPath>..\..\..\..\openEHR\DDR\DDR.Source\openEHR.DDR.Command\bin\Debug\net5.0\openEHR.DDR.Command.dll</HintPath>
+    </Reference>
+    <Reference Include="Services.Authorization">
+      <HintPath>..\..\..\..\Services\Services.Source\Services.Authorization\bin\Release\net7.0\publish\Services.Authorization.dll</HintPath>
+    </Reference>
+    <Reference Include="Services.ExceptionManager">
+      <HintPath>..\..\..\..\Services\Services.Source\Services.ExceptionManager\bin\Release\net7.0\publish\Services.ExceptionManager.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

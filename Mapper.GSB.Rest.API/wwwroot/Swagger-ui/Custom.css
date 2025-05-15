@@ -1,0 +1,77 @@
+﻿@font-face {
+    font-family: 'MainFont';
+    src: url('Fonts/IRANSansWeb.eot'); /* IE9 Compat Modes */
+    src: url('Fonts/IRANSansWeb.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('Fonts/IRANSansWeb.woff2') format('woff2'), /* Super Modern Browsers */
+    url('Fonts/IRANSansWeb.woff') format('woff'), /* Pretty Modern Browsers */
+    url('Fonts/IRANSansWeb.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('Fonts/IRANSansWeb.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+#select {
+    font-family: MainFont !important;
+}
+
+.renderedMarkdown {
+    font-family: MainFont !important;
+}
+
+    .renderedMarkdown p {
+        font-family: MainFont !important;
+        direction: rtl;
+    }
+
+.opblock-summary-description {
+    font-family: MainFont !important;
+}
+
+.opblock-description-wrapper {
+    font-family: MainFont !important;
+}
+
+.swagger-ui .info {
+    direction: rtl;
+    font-family: MainFont !important;
+}
+
+    .swagger-ui .info .main .title {
+        font-family: MainFont !important;
+    }
+
+    .swagger-ui .info .info__contact a {
+        font-family: MainFont !important;
+    }
+
+    .swagger-ui .info .url a {
+        font-family: MainFont !important;
+    }
+
+.topbar-wrapper {
+    direction: rtl;
+}
+
+.swagger-ui .topbar .download-url-wrapper .select-label {
+    font-family: MainFont !important;
+}
+
+.LogoTitle {
+    font-family: MainFont !important;
+    font-size: 14px;
+}
+
+.header-col .renderedMarkdown p {
+    text-align :center;
+}
+/*
+.topbar-wrapper img[alt="Swagger UI"], .topbar-wrapper span {
+    visibility: hidden;
+}
+
+.topbar-wrapper .link:after {
+    content: '<img src="Images/PSHW-Logo.png"/>';
+    color: #fff;
+    visibility: visible;
+    display: block;
+    position: absolute;
+    padding: 15px;
+}*/

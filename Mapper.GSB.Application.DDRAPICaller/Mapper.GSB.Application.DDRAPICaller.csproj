@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Mapper.GSB.Application\Mapper.GSB.Application.csproj" />
+    <ProjectReference Include="..\Mapper.GSB.Domain\Mapper.GSB.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Mapper.openEHR">
+      <HintPath>..\..\..\..\openEHR\Mapper\Mapper.Source\Mapper.openEHR\bin\Release\net6.0\publish\Mapper.openEHR.dll</HintPath>
+    </Reference>
+    <Reference Include="Mapper.openEHR.Infrastructure">
+      <HintPath>..\..\..\..\openEHR\Mapper\Mapper.Source\Mapper.openEHR.Infrastructure\bin\Release\net6.0\publish\Mapper.openEHR.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="openEHR">
+      <HintPath>..\..\..\..\openEHR\Library\Library.Source\openEHR\bin\Debug\net5.0\openEHR.dll</HintPath>
+    </Reference>
+    <Reference Include="openEHR.DDR.Command">
+      <HintPath>..\..\..\..\openEHR\DDR\DDR.Source\openEHR.DDR.Command\bin\Debug\net5.0\openEHR.DDR.Command.dll</HintPath>
+    </Reference>
+    <Reference Include="Services.ExceptionManager">
+      <HintPath>..\..\..\..\Services\Services.Source\Services.ExceptionManager\bin\Release\net7.0\publish\Services.ExceptionManager.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
