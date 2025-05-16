@@ -55,6 +55,7 @@ The solution is organized into modular layers for better maintainability and sca
   - Caching
   - Messaging
   - Database access
+  - Third PArty API
 
 - **Mapper.GSB.Infrastructure.DbConfig.BI**:  
   Stores SQL scripts and database configuration files.
